@@ -7,13 +7,15 @@ import { AdminloginComponent } from './adminlogin/adminlogin.component';
 import { FormsModule } from '@angular/forms';
 import { UserloginComponent } from './userlogin/userlogin.component';
 import { UserregComponent } from './userreg/userreg.component';
+import { BookentryComponent } from './bookentry/bookentry.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminloginComponent,
     UserloginComponent,
-    UserregComponent
+    UserregComponent,
+    BookentryComponent
   ],
   imports: [
     BrowserModule,
