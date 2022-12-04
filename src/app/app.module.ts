@@ -12,6 +12,45 @@ import { SearchComponent } from './search/search.component';
 import { DeleteComponent } from './delete/delete.component';
 import { EditComponent } from './edit/edit.component';
 import { ViewComponent } from './view/view.component';
+import { NavComponent } from './nav/nav.component';
+import { RouterModule, Routes } from '@angular/router';
+const myRouter:Routes=[
+  {
+  path:"",
+  component:AdminloginComponent
+
+},
+
+{
+  path:"delete",
+  component:DeleteComponent
+},
+{
+  path:"edit",
+  component:EditComponent
+},
+{
+   path:"entry",
+   component:BookentryComponent
+},
+
+{
+  path:"search",
+  component:SearchComponent
+},
+{
+  path:"view",
+  component:ViewComponent
+},
+{
+  path:"userlogin",
+  component:UserloginComponent
+},
+{
+  path:"userregistration",
+  component:UserregComponent
+}
+]
 
 @NgModule({
   declarations: [
@@ -23,12 +62,15 @@ import { ViewComponent } from './view/view.component';
     SearchComponent,
     DeleteComponent,
     EditComponent,
-    ViewComponent
+    ViewComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(myRouter)
+
   ],
   providers: [],
   bootstrap: [AppComponent]
