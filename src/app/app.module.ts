@@ -10,6 +10,7 @@ import { UserregComponent } from './userreg/userreg.component';
 import { BookentryComponent } from './bookentry/bookentry.component';
 import { SearchComponent } from './search/search.component';
 import { DeleteComponent } from './delete/delete.component';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DeleteComponent } from './delete/delete.component';
     UserregComponent,
     BookentryComponent,
     SearchComponent,
-    DeleteComponent
+    DeleteComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
