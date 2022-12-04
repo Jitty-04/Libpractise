@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { UserloginComponent } from './userlogin/userlogin.component';
 import { UserregComponent } from './userreg/userreg.component';
 import { BookentryComponent } from './bookentry/bookentry.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BookentryComponent } from './bookentry/bookentry.component';
     AdminloginComponent,
     UserloginComponent,
     UserregComponent,
-    BookentryComponent
+    BookentryComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
