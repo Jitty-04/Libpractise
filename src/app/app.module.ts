@@ -11,6 +11,7 @@ import { BookentryComponent } from './bookentry/bookentry.component';
 import { SearchComponent } from './search/search.component';
 import { DeleteComponent } from './delete/delete.component';
 import { EditComponent } from './edit/edit.component';
+import { ViewComponent } from './view/view.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EditComponent } from './edit/edit.component';
     BookentryComponent,
     SearchComponent,
     DeleteComponent,
-    EditComponent
+    EditComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
